@@ -28,7 +28,6 @@ def translate(input_file):
             buffer = buffer.strip()
             fp1.write(buffer + '\n')
     fp1.close()
-    print("File Translated")
     return True
 
 
